@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "presetId": "artistic",
-  "isThemeCustomized": true,
+  "isThemeCustomized": false,
   "theme": {
-    "backgroundColor": "#fafafa",
+    "backgroundColor": "#f7f0e7",
     "surfaceColor": "#fffaf3",
     "primaryColor": "#111111",
     "secondaryColor": "#8b5e3c",
@@ -22,7 +22,6 @@
       "type": "navbar",
       "id": "nav-1",
       "variant": "luxury",
-      "backgroundImageFit": "cover",
       "props": {
         "title": "HTTPMAKER",
         "subtitle": "AI website builder",
@@ -32,33 +31,22 @@
         "alignment": "left",
         "statLabel": "Ships in days",
         "statValue": "48h"
-      },
-      "elementStyles": {
-        "buttonText": {
-          "borderRadius": 27
-        }
       }
     },
     {
       "type": "hero",
       "id": "hero-1",
       "variant": "luxury",
-      "backgroundColor": "#d2a7a7",
-      "backgroundImageFit": "cover",
+      "heightVh": 100,
       "props": {
-        "title": "LYVANJA",
+        "title": "Novi projekat",
         "subtitle": "Launch polished digital experiences with a premium AI workflow built for modern founders.",
         "buttonText": "Build your site",
         "secondaryButtonText": "View inspiration",
         "imageUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1000&q=80",
         "alignment": "left",
         "statLabel": "Active clients",
-        "statValue": "120+"
-      },
-      "elementStyles": {
-        "secondaryButtonText": {
-          "hoverEffect": "none"
-        }
+        "statValue": ""
       }
     },
     {
