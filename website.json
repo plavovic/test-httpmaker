@@ -31,22 +31,53 @@
         "alignment": "left",
         "statLabel": "Ships in days",
         "statValue": "48h"
+      },
+      "elementStyles": {
+        "buttonText": {
+          "offsetX": 0,
+          "offsetY": 0,
+          "offsetXPercent": 0,
+          "offsetYPercent": 0,
+          "hiddenInPreview": false
+        }
       }
     },
     {
       "type": "hero",
       "id": "hero-1",
       "variant": "luxury",
-      "heightVh": 100,
       "props": {
-        "title": "Novi projekat",
+        "title": "Design with a quiet confidence.",
         "subtitle": "Launch polished digital experiences with a premium AI workflow built for modern founders.",
         "buttonText": "Build your site",
         "secondaryButtonText": "View inspiration",
-        "imageUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1000&q=80",
+        "imageUrl": "asset://8f1d9940-c7cc-41d4-b904-d75b69b52ba6",
         "alignment": "left",
         "statLabel": "Active clients",
-        "statValue": ""
+        "statValue": "120+"
+      },
+      "elementStyles": {
+        "title": {
+          "offsetX": 0,
+          "offsetY": 0,
+          "offsetXPercent": -4.68,
+          "offsetYPercent": 5.5,
+          "hiddenInPreview": false
+        },
+        "imageUrl": {
+          "offsetX": 0,
+          "offsetY": 0,
+          "offsetXPercent": 6.71,
+          "offsetYPercent": -13.15,
+          "hiddenInPreview": false
+        },
+        "statLabel": {
+          "offsetX": 0,
+          "offsetY": 0,
+          "offsetXPercent": 14.51,
+          "offsetYPercent": -100.76,
+          "hiddenInPreview": false
+        }
       }
     },
     {
@@ -103,6 +134,7 @@
       "type": "contact",
       "id": "contact-1",
       "variant": "luxury",
+      "heightVh": 100,
       "props": {
         "title": "Let’s build something useful.",
         "subtitle": "Share your challenge and we’ll reply within two business days.",
@@ -111,7 +143,8 @@
         "imageUrl": "",
         "alignment": "left",
         "statLabel": "Start a project",
-        "statValue": "48h"
+        "statValue": "48h",
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92005.3292245975!2d18.300591280146186!3d43.89381740380248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758cbb1ed719bd1%3A0x562ecda6de87b33e!2sSarajevo!5e0!3m2!1sen!2sba!4v1784503602203!5m2!1sen!2sba"
       },
       "animation": "fade",
       "animationSpeed": "normal"
