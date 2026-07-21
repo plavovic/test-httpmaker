@@ -22,9 +22,10 @@
       "type": "navbar",
       "id": "nav-1",
       "variant": "luxury",
+      "backgroundColor": "#055200",
       "props": {
-        "title": "HTTPMAKER",
-        "subtitle": "AI website builder",
+        "title": "VEGETABLES",
+        "subtitle": "FRESHLY PICKED",
         "buttonText": "Launch",
         "secondaryButtonText": "Book a demo",
         "imageUrl": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
@@ -33,11 +34,26 @@
         "statValue": "48h"
       },
       "elementStyles": {
+        "title": {
+          "color": "#fffaf3",
+          "offsetX": -48,
+          "offsetY": 5,
+          "hiddenInPreview": false
+        },
+        "subtitle": {
+          "color": "#fffaf3",
+          "offsetX": -48,
+          "offsetY": 8,
+          "hiddenInPreview": false
+        },
         "buttonText": {
-          "offsetX": 0,
-          "offsetY": 0,
-          "offsetXPercent": 0,
-          "offsetYPercent": 0,
+          "offsetX": 56,
+          "offsetY": 8,
+          "hiddenInPreview": false
+        },
+        "secondaryButtonText": {
+          "offsetX": 48,
+          "offsetY": 5,
           "hiddenInPreview": false
         }
       }
@@ -53,29 +69,41 @@
         "secondaryButtonText": "View inspiration",
         "imageUrl": "asset://8f1d9940-c7cc-41d4-b904-d75b69b52ba6",
         "alignment": "left",
-        "statLabel": "Active clients",
-        "statValue": "120+"
+        "statLabel": "",
+        "statValue": ""
       },
       "elementStyles": {
         "title": {
-          "offsetX": 0,
-          "offsetY": 0,
-          "offsetXPercent": -4.68,
-          "offsetYPercent": 5.5,
+          "offsetX": -97,
+          "offsetY": -218,
           "hiddenInPreview": false
         },
         "imageUrl": {
-          "offsetX": 0,
-          "offsetY": 0,
-          "offsetXPercent": 6.71,
-          "offsetYPercent": -13.15,
+          "heightPx": 523,
+          "offsetX": 85,
+          "offsetY": -286,
+          "hiddenInPreview": false
+        },
+        "subtitle": {
+          "offsetX": -97,
+          "offsetY": -224,
           "hiddenInPreview": false
         },
         "statLabel": {
           "offsetX": 0,
           "offsetY": 0,
-          "offsetXPercent": 14.51,
-          "offsetYPercent": -100.76,
+          "offsetXPercent": -10.73,
+          "offsetYPercent": -155.35,
+          "hiddenInPreview": false
+        },
+        "buttonText": {
+          "offsetX": -97,
+          "offsetY": -238,
+          "hiddenInPreview": false
+        },
+        "secondaryButtonText": {
+          "offsetX": -96,
+          "offsetY": -238,
           "hiddenInPreview": false
         }
       }
@@ -84,6 +112,7 @@
       "type": "about",
       "id": "about-1",
       "variant": "luxury",
+      "heightVh": 81,
       "props": {
         "title": "Strategy meets exceptional craft.",
         "subtitle": "We partner with ambitious teams to turn complex ideas into clear, useful digital products.",
@@ -94,6 +123,38 @@
         "statLabel": "About Northstar",
         "statValue": "12 years",
         "altText": "Creative team collaborating"
+      },
+      "elementStyles": {
+        "title": {
+          "offsetX": -30,
+          "offsetY": -68,
+          "hiddenInPreview": false
+        },
+        "imageUrl": {
+          "offsetX": -49,
+          "offsetY": 12,
+          "hiddenInPreview": false
+        },
+        "subtitle": {
+          "offsetX": -28,
+          "offsetY": -54,
+          "hiddenInPreview": false
+        },
+        "statLabel": {
+          "offsetX": -28,
+          "offsetY": -76,
+          "hiddenInPreview": false
+        },
+        "statValue": {
+          "offsetX": 134,
+          "offsetY": -70,
+          "hiddenInPreview": false
+        },
+        "buttonText": {
+          "offsetX": -127,
+          "offsetY": -70,
+          "hiddenInPreview": false
+        }
       },
       "animation": "fade",
       "animationSpeed": "normal"
@@ -111,6 +172,15 @@
         "alignment": "center",
         "statLabel": "Case studies",
         "statValue": "03"
+      },
+      "elementStyles": {
+        "title": {
+          "offsetX": 0,
+          "offsetY": 0,
+          "offsetXPercent": 0.46,
+          "offsetYPercent": 27.91,
+          "hiddenInPreview": false
+        }
       },
       "animation": "slide-up",
       "animationSpeed": "normal"
